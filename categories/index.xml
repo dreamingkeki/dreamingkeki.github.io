@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dreaming KeKi</title>
-    <link>http://dreamingkeki.github.com/categories/</link>
+    <link>http://dreamingkeki.github.io/categories/</link>
     <description>Recent content in Categories on Dreaming KeKi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-KR</language><atom:link href="http://dreamingkeki.github.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ko-KR</language><atom:link href="http://dreamingkeki.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
