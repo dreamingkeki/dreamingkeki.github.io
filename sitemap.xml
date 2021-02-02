@@ -21,15 +21,35 @@
   </url>
   
   <url>
+    <loc>//dreamingkeki.github.io/develop/</loc>
+  </url>
+  
+  <url>
+    <loc>//dreamingkeki.github.io/art/</loc>
+  </url>
+  
+  <url>
     <loc>//dreamingkeki.github.io/tags/index/</loc>
   </url>
   
   <url>
-    <loc>//dreamingkeki.github.io/post/</loc>
+    <loc>//dreamingkeki.github.io/mind/</loc>
+  </url>
+  
+  <url>
+    <loc>//dreamingkeki.github.io/plan/</loc>
   </url>
   
   <url>
     <loc>//dreamingkeki.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>//dreamingkeki.github.io/ue4/</loc>
+  </url>
+  
+  <url>
+    <loc>//dreamingkeki.github.io/unity/</loc>
   </url>
   
 </urlset>
