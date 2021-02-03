@@ -1,0 +1,1 @@
+html[data-theme=dark]{--tbl-ol-color: #666666;--tbl-th-color: #303030}table{width:100%;border-top:2px solid var(--tbl-ol-color);border-bottom:2px solid var(--tbl-ol-color);border-collapse:collapse;margin:10px 0}th{width:10%;border-bottom:1px solid var(--tbl-ol-color);padding:4px}td{border-bottom:1px solid var(--tbl-ol-color);padding:4px}
