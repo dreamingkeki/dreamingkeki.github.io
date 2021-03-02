@@ -1,84 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>//dreamingkeki.github.io/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/etc/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/tags/index/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/tags/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/etc/2021-02-28/</loc>
     <lastmod>2021-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/etc/2021-02-27/</loc>
     <lastmod>2021-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/etc/2021-02-26/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/profile/</loc>
     <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/art/</loc>
     <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/art/2021-02-03/</loc>
     <lastmod>2021-02-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/archives/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/develop/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/mind/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/plan/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/ue4/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>//dreamingkeki.github.io/unity/</loc>
   </url>
-  
 </urlset>
