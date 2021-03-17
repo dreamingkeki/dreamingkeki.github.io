@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark"><head>
-    <title> KeKi | Etc </title>
+    <title> KeKi | [ 맨땅에 해딩하는 Deno &#43; Oak &#43; React ] jspm.io / esm.sh </title>
 
     
     <meta charset="utf-8"><meta name="generator" content="Hugo 0.81.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -37,10 +37,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="//dreamingkeki.github.io/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="//dreamingkeki.github.io/favicons/favicon-16x16.png">
 
-    <link rel="canonical" href="//dreamingkeki.github.io/etc/">
+    <link rel="canonical" href="//dreamingkeki.github.io/develop/2021-03-17/">
 
     
-    <link rel="alternate" type="application/rss+xml" href="//dreamingkeki.github.io/etc/index.xml" title="Dreaming KeKi" />
     
     
     
@@ -54,8 +53,9 @@
     <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="//dreamingkeki.github.io/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content="Etc"/>
-<meta name="twitter:description" content="그저 그런 9류 개발자의 페이지"/>
+<meta name="twitter:title" content="[ 맨땅에 해딩하는 Deno &#43; Oak &#43; React ] jspm.io / esm.sh"/>
+<meta name="twitter:description" content="얼마전 공부삼아 작업한 내역중 격은 문제를 정리.
+Deno 환경에서 Oak Framework를 사용하여 SSR을 사용한 Frontend Server를 작성함."/>
 
 </head>
 <body><div class="sidebar . ">
@@ -134,7 +134,7 @@
                    title="">아트</a></li>
         
             
-            <li><a class="current"
+            <li><a 
                    href="/etc/"
                         
                    title="">기타</a></li>
@@ -158,54 +158,47 @@
 
     <div class="autopagerize_page_element">
         <div class="content">
-    <div class="archive  . ">
-        <ul class="list-with-title">
+    <div class="post  . ">
+        <div class="post-content">
             
-                <div class="listing-title">2021</div>
+            <div class="post-title">
+                <h3>[ 맨땅에 해딩하는 Deno &#43; Oak &#43; React ] jspm.io / esm.sh</h3>
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="//dreamingkeki.github.io/etc/2021-03-17/" title="반성">반성</a>
-                                <div class="post-time"><span class="date"> 
-                                                                            Mar 17
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
+            </div>
+
+            <p>얼마전 공부삼아 작업한 내역중 격은 문제를 정리.</p>
+<p>Deno 환경에서 Oak Framework를 사용하여 SSR을 사용한 Frontend Server를 작성함.</p>
+<p>서버 사이드 렌더링하는 과정에서 시행착오를 겪으면서 개념도 잡고 열심히 만들었음.</p>
+<p>테스트 &gt; 페이지 잘 보임.</p>
+<p>Deno 환경에서 React를 사용하기 위해 보편적인 가이드와 리포지터리등을 돌면서 정보를 수집.</p>
+<p>대표적인 배포경로로써 jspm.io가 안내 됨. 그래서 사용.</p>
+<p>1차 이슈. Types 정보가 가이드 되지 않음. 각 import경로 위에 &ldquo;// deno-types=&ldquo;으로</p>
+<p>각 모듈의 Types정보를 기술한 소스를 연결해 줘야 함.</p>
+<p>2차 이슈. Types를 정리한 소스 내의 서브 모듈 임포트 정보가 인식되지 않음. (global 머시기)</p>
+<p>각 타입 소스를 다운로드하여 임포트 경로를 수정해서 해결.</p>
+<p>테스트 &gt; 페이지 잘 보임.</p>
+<p>css 처리를 위해 styled-components를 도입. Types정보도 긁어와서 연결 해줌</p>
+<p>3차 이슈. 이놈 웹에 퍼진 소스들과 익스포트가 다르다. Type 에러가 계속 난다.</p>
+<p>임포트 된 객체를 로그로 찍어 구조를 보고 임포트.</p>
+<p>테스트 &gt; 페이지 잘 보임. 스타일도 잘 먹음.</p>
+<p>계속 타입정보를 긁어와서 연결해 줘야 하나? 귀차니즘에 검색을 더해봄.</p>
+<p>기타 몇몇 프로젝트에서 esm.sh를 사용 임포트 시킴. 그래서 변경</p>
+<p>각 모듈별로 Types정보를 연결 안해줘도 가이드가 잘됨. 아싸 좋구나</p>
+<p>테스트 &gt; 잘보이나 스타일이 안 먹음.</p>
+<p>4차 이슈. 왜 안먹지? 봤더니 Deno의 API가 딸려 들어감. Web인데&hellip;</p>
+<p>제외 방법을 찾아봄. 못 찾음. 실패. 그래서 jspm으로 롤백 후 중단. 마음의 평화가 필요함.</p>
+</div>
+        <div class="post-footer">
+            <div class="info">
                 
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="//dreamingkeki.github.io/etc/2021-02-28/" title="외도 보타니아">외도 보타니아</a>
-                                <div class="post-time"><span class="date"> 
-                                                                            Feb 28
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="//dreamingkeki.github.io/etc/2021-02-27/" title="밤바다">밤바다</a>
-                                <div class="post-time"><span class="date"> 
-                                                                            Feb 27
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-                    <ul class="listing">
-                        <div class="listing-item">
-                            <div class="listing-post"><a href="//dreamingkeki.github.io/etc/2021-02-26/" title="생각 없음">생각 없음</a>
-                                <div class="post-time"><span class="date"> 
-                                                                            Feb 26
-                                                                            </span></div>
-                            </div>
-                        </div>
-                    </ul>
-                
-            
-        </ul>
+                <span class="separator"><a class="tag" href="/tags/index/">index</a></span>
+
+            </div>
+        </div>
+
+        
     </div>
+
 
         </div>
     </div>

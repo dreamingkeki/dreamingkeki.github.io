@@ -6,7 +6,26 @@
     <description>Recent content on Dreaming KeKi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="//dreamingkeki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="//dreamingkeki.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[ 맨땅에 해딩하는 Deno &#43; Oak &#43; React ] jspm.io / esm.sh</title>
+      <link>//dreamingkeki.github.io/develop/2021-03-17/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//dreamingkeki.github.io/develop/2021-03-17/</guid>
+      <description>얼마전 공부삼아 작업한 내역중 격은 문제를 정리.
+Deno 환경에서 Oak Framework를 사용하여 SSR을 사용한 Frontend Server를 작성함.</description>
+    </item>
+    
+    <item>
+      <title>반성</title>
+      <link>//dreamingkeki.github.io/etc/2021-03-17/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//dreamingkeki.github.io/etc/2021-03-17/</guid>
+      <description>일하면서 격는 문제와 그 문제를 처리하며 얻은 해결 방법등을 적기 위해 만들었는데</description>
+    </item>
+    
     <item>
       <title>외도 보타니아</title>
       <link>//dreamingkeki.github.io/etc/2021-02-28/</link>
